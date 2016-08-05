@@ -407,7 +407,6 @@ function VerbIntrans(){
 		"did push-ups",
 		"gargled",
 		"showered",
-		"defecated",
 		"retreated",
 	];
 	this.value = pickFromArray(this.list);
@@ -448,6 +447,10 @@ function VerbTrans(){
 		"yanked",
 		"believed in",
 		"broke",
+		"produced",
+		"brushed",
+		"approved of",
+		"purchased"
 	];
 	this.value = pickFromArray(this.list);
 }
