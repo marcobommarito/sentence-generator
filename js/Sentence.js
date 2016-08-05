@@ -12,12 +12,12 @@ function buildSentence(){
 function createRaw(){
 	var line = "";
 	var cur  = "";
-	//var isExclam = false;
+	var isExclam = false;
 
-	//if (Math.round(Math.random()*30) == 0){
-		//isExclam = true;
-		//line += new Interj().value;
-	//}
+	if (Math.round(Math.random()*30) == 0){
+		isExclam = true;
+		line += new Interj().value;
+	}
 
 	if (Math.round(Math.random()*5) == 0){
 		cur = new ClauseDep();
