@@ -12,6 +12,12 @@ function buildSentence(){
 function createRaw(){
 	var line = "";
 	var cur  = "";
+	var isExclam = false;
+
+	if (Math.round(Math.random()*30) == 0){
+		isExclam = true;
+		line += new Interj().value;
+
 	if (Math.round(Math.random()*5) == 0){
 		cur = new ClauseDep();
 	}else{
@@ -43,6 +49,13 @@ function createRaw(){
 		line += cur.value + " ";
 	}
 	while (Math.round(Math.random()*4) == 0 || cur instanceof ClauseDep);
+
+	if (isExclam){
+		line += "!";
+	}else{
+		line += ".";
+	}
+
 	return line;
 }
 
@@ -74,10 +87,12 @@ function normalizeCommas(line){
 	return line;
 }
 
-function addPeriod(line){
-	line += ".";
+function normalizeEnd(line){
 	while (line.indexOf(" .") > -1){
 		line = line.replace(" .", ".");
+	}
+	while (line.indexOf(" !") > -1){
+		line = line.replace(" !", "!");
 	}
 	return line;
 }
