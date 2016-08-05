@@ -21,10 +21,13 @@ function buildComplxSubj(){
 			line += new Adj().value + " ";
 		}
 	}
+	if (Math.round(Math.random()*10) == 0){
+		line += new ClauseNoun().value + " ";
+	}else{
+		line += new Noun().value + " ";
+	}
 
-	line += new Noun().value + " ";
-
-	if (Math.round(Math.random()*6) == 0){
+	if (Math.round(Math.random()*10) == 0){
 		line += new ClauseAdj().value + " ";
 	}
 	return line;
