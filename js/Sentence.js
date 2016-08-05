@@ -52,7 +52,7 @@ function createRaw(){
 	while (Math.round(Math.random()*4) == 0 || cur instanceof ClauseDep);
 
 	if (isExclam){
-		mline += "!";
+		line += "!";
 	}else{
 		line += ".";
 	}
