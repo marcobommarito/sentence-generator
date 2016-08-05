@@ -14,10 +14,10 @@ function createRaw(){
 	var cur  = "";
 	var isExclam = false;
 
-	if (Math.round(Math.random()*30) == 0){
-		isExclam = true;
-		line += new Interj().value;
-	}
+	//if (Math.round(Math.random()*30) == 0){
+		//isExclam = true;
+		//line += new Interj().value;
+	//}
 
 	if (Math.round(Math.random()*5) == 0){
 		cur = new ClauseDep();
@@ -51,11 +51,11 @@ function createRaw(){
 	}
 	while (Math.round(Math.random()*4) == 0 || cur instanceof ClauseDep);
 
-	if (isExclam){
-		line += "!";
-	}else{
-		line += ".";
-	}
+	//if (isExclam){
+		//line += "!";
+	//}else{
+		//line += ".";
+	//}
 
 	return line;
 }
@@ -89,6 +89,7 @@ function normalizeCommas(line){
 }
 
 function normalizeEnd(line){
+	line += ".";
 	while (line.indexOf(" .") > -1){
 		line = line.replace(" .", ".");
 	}
