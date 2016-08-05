@@ -8,6 +8,7 @@ function buildComplxSubj(){
 	if (Math.round(Math.random()*10) == 0){
 		line += new ClauseNoun().value + " ";
 		return line;
+	}
 	
 	line += new Article().value + " ";
 
