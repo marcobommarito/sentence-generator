@@ -108,7 +108,7 @@ function Adj(){
 		"stalwart",
 		"obnoxious",
 		"sad",
-		"exhilarating"
+		"exhilarating",
 		"pint-sized",
 		"slippery",
 		"esoteric",
@@ -398,7 +398,7 @@ function VerbIntrans(){
 		"gargled",
 		"showered",
 		"defecated",
-		"retreated"
+		"retreated",
 	];
 	this.value = pickFromArray(this.list);
 }
@@ -442,7 +442,7 @@ function Article(){
 		"my",
 		"your",
 		"his",
-		"our"
+		"our",
 	];
 	this.value = pickFromArray(this.list);
 }
@@ -454,7 +454,7 @@ function ConjCoor(){
 		"but",
 		"yet",
 		"so",
-		"then"
+		"then",
 	];
 	this.value = pickFromArray(this.list);
 }
@@ -468,7 +468,7 @@ function ConjSub(){
 		"although",
 		"until",
 		"even though",
-		"given that"
+		"given that",
 	];
 	this.value = pickFromArray(this.list);
 }
@@ -484,14 +484,14 @@ function Prep(){
 		"regarding",
 		"around",
 		"within",
-		"inside"
+		"inside",
 	];
 	this.value = pickFromArray(this.list);
 }
 
 function RelObjPronoun(){
 	this.list = [
-		"that"
+		"that",
 	];
 	this.value = pickFromArray(this.list);
 }
@@ -515,7 +515,7 @@ function Trigger(){
 		"in opposition to",
 		"in front of",
 		"inside",
-		"within"
+		"within",
 	];
 	this.value = pickFromArray(this.list);
 }
