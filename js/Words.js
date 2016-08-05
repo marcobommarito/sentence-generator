@@ -172,7 +172,7 @@ function Adverb(){
 		"irritably",
 		"cheerfully",
 		"subtly",
-		"quitely",
+		"quietly",
 		"voluntarily",
 		"oddly",
 		"unnaturally",
