@@ -87,10 +87,10 @@ function fixAnAndA(line){
 	line = replaceAll(line, " a e", " an e");
 	line = replaceAll(line, " a i", " an i");
 	line = replaceAll(line, " a o", " an o");
-	line = replaceAll(line, " A a", " An a");
-	line = replaceAll(line, " A e", " An e");
-	line = replaceAll(line, " A i", " An i");
-	line = replaceAll(line, " A o", " An o");
+	line = replaceAll(line, "A a", " An a");
+	line = replaceAll(line, "A e", " An e");
+	line = replaceAll(line, "A i", " An i");
+	line = replaceAll(line, "A o", " An o");
 
 	return line;
 }
