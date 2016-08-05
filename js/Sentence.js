@@ -14,7 +14,7 @@ function createRaw(){
 	var cur  = "";
 	var isExclam = false;
 
-	if (Math.round(Math.random()*30) == 0){
+	if (Math.round(Math.random()*30) == -1){
 		isExclam = true;
 		line += new Interj().value;
 	}
