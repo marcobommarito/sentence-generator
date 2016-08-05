@@ -25,7 +25,7 @@ function buildComplxSubj(){
 	line += new Noun().value + " ";
 
 	if (Math.round(Math.random()*6) == 0){
-		value += new ClauseAdj().value + " ";
+		line += new ClauseAdj().value + " ";
 	}
 	return line;
 

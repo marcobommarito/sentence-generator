@@ -213,7 +213,6 @@ function ConjSub(){
 		"after",
 		"since",
 		"because",
-		"if",
 		"although",
 		"until",
 		"even though",

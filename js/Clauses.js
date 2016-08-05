@@ -4,8 +4,8 @@ function ClauseInd(){
 }
 
 function ClauseDep(){
-	this.value = new ConjSubj().value + " "
-				+ new ComplxSub().value + " "
+	this.value = new ConjSub().value + " "
+				+ new ComplxSubj().value + " "
 				+ new ComplxPred().value + " ";
 }
 
