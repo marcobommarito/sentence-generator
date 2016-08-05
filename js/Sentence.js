@@ -25,6 +25,13 @@ function createRaw(){
 		cur = new ClauseInd();
 		if (Math.round(Math.random()) == 0){
 			line += cur.value;
+
+			if (isExclam){
+				line += "!";
+			}else{
+				line += ".";
+			}
+				
 			return line;
 		}
 	}
@@ -37,6 +44,12 @@ function createRaw(){
 			}else{
 				cur = new ClauseDep();
 				line += cur.value + " ";
+
+				if (isExclam){
+					line += "!";
+				}else{
+					line += ".";
+				}
 				return line;
 			}
 			cur = new ClauseDep();
