@@ -51,11 +51,11 @@ function createRaw(){
 	}
 	while (Math.round(Math.random()*4) == 0 || cur instanceof ClauseDep);
 
-	//if (isExclam){
-		//line += "!";
-	//}else{
-		//line += ".";
-	//}
+	if (isExclam){
+		mline += "!";
+	}else{
+		line += ".";
+	}
 
 	return line;
 }
@@ -63,7 +63,7 @@ function createRaw(){
 //Miscellaneous utilities
 
 function cleanUp(line){
-	line = addPeriod (line);
+	line = normalizeEnd (line);
 	line = equalizeSpaces(line);
 	line = normalizeCommas(line);
 	line = capitalizeFirstLetter(line);
@@ -89,13 +89,12 @@ function normalizeCommas(line){
 }
 
 function normalizeEnd(line){
-	line += ".";
 	while (line.indexOf(" .") > -1){
 		line = line.replace(" .", ".");
 	}
-	//while (line.indexOf(" !") > -1){
-		//line = line.replace(" !", "!");
-	//}
+	while (line.indexOf(" !") > -1){
+		line = line.replace(" !", "!");
+	}
 	return line;
 }
 
