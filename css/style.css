@@ -5,7 +5,8 @@
 
     padding: 1em;
     max-width: 400px;
-
+    border-radius: 2em;
+    
     position: absolute;
     top: 50%;
     left: 50%;
@@ -16,4 +17,16 @@
 #sentence{
 	overflow-x: scroll;
 	font-size: 2em;
+}
+
+#generate-button{
+    background: black;
+    padding: 10px 20px;
+    border-radius: 8px;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
 }
