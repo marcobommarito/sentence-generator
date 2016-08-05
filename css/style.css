@@ -1,17 +1,21 @@
-#sentence-box {
-	background: red;
+body {
 	background: black;
-    color: white;
+}
 
-    padding: 1em;
-    max-width: 400px;
-    border-radius: 2em;
-    
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
+/*I hate CSS*/
+#sentence-box {
+	background: white;
+    	color: black;
+
+	padding: 1em;
+	max-width: 400px;
+	border-radius: 2em;
+	
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%)
 }
 
 #sentence{
@@ -19,16 +23,3 @@
 	font-size: 2em;
 }
 
-#generate-button{
-    background: white;
-    padding: 10px 20px;
-    border-radius: 8px;
-    
-    font: normal 16px/normal "chivo", Helvetica, sans-serif;
-    
-    position: absolute;
-    top: 50%
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
-}
