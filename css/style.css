@@ -24,7 +24,9 @@
     padding: 10px 20px;
     border-radius: 8px;
     
-    position: absolute;
+    font: normal 16px/normal "Times New Roman", Times, serif;
+    
+    position: relative;
     top: 100%;
     left: 50%;
     margin-right: -50%;
