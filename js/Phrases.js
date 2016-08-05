@@ -4,7 +4,11 @@ function ComplxSubj(){
 
 function buildComplxSubj(){
 	var line = "";
-
+	
+	if (Math.round(Math.random()*10) == 0){
+		line += new ClauseNoun().value + " ";
+		return line;
+	
 	line += new Article().value + " ";
 
 	if (Math.round(Math.random()*3) == 0){
@@ -21,11 +25,9 @@ function buildComplxSubj(){
 			line += new Adj().value + " ";
 		}
 	}
-	if (Math.round(Math.random()*10) == 0){
-		line += new ClauseNoun().value + " ";
-	}else{
-		line += new Noun().value + " ";
-	}
+	
+	line += new Noun().value + " ";
+	
 
 	if (Math.round(Math.random()*10) == 0){
 		line += new ClauseAdj().value + " ";
