@@ -12,7 +12,7 @@ function buildSentence(){
 function createRaw(){
 	var line = "";
 	var cur  = "";
-	var isExclam = false;
+	//var isExclam = false;
 
 	//if (Math.round(Math.random()*30) == 0){
 		//isExclam = true;
@@ -93,9 +93,9 @@ function normalizeEnd(line){
 	while (line.indexOf(" .") > -1){
 		line = line.replace(" .", ".");
 	}
-	while (line.indexOf(" !") > -1){
-		line = line.replace(" !", "!");
-	}
+	//while (line.indexOf(" !") > -1){
+		//line = line.replace(" !", "!");
+	//}
 	return line;
 }
 
