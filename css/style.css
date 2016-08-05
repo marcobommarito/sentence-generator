@@ -24,10 +24,10 @@
     padding: 10px 20px;
     border-radius: 8px;
     
-    font: normal 16px/normal "Times New Roman", Times, serif;
+    font: normal 16px/normal "chivo", Helvetica, sans-serif;
     
     position: relative;
-    top: 100%;
+    top: 50%
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%)
