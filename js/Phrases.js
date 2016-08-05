@@ -48,11 +48,11 @@ function buildComplxPred(){
 		line += new Adverb().value + " ";
 	}
 
-	if (Math.round(Math.random()) == 0){
-		line += new VerbIntrans().value + " ";
-	}else{
+	if (Math.round(Math.random()*8) == 0){
 		line += new VerbTrans().value + " ";
 		line += new ComplxSubj().value + " ";
+	}else{
+		line += new VerbIntrans().value + " ";
 	}
 
 	if (Math.round(Math.random()*3) == 0){
