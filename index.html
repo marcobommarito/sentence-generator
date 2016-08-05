@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>Sentence Generator</title>
+</head>
+
+<body>
+	<div id="sentence-box">
+		<p id="sentence"></p>
+		<button onclick="generateNewSentence();">New Sentence</button>
+	</div>
+	<script src = js/Words.js></script>
+	<script src = js/Phrases.js></script>
+	<script src = js/Clauses.js></script>
+	<script src = js/Sentence.js></script>
+	<script>
+		function generateNewSentence(){
+			var target = document.getElementById("sentence");
+			var s = new Sentence().value;
+			target.innerHTML = s;
+		}
+	</script>
+</body>
+
+</html>
