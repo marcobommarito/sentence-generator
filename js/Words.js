@@ -455,6 +455,30 @@ function VerbTrans(){
 	this.value = pickFromArray(this.list);
 }
 
+function Interj(){
+	this.list = [
+		"Hark!",
+		"Whoa!",
+		"Oh, no!",
+		"Oh, God!",
+		"Oh, my God!",
+		"No way!",
+		"Yikes!",
+		"Ouch!",
+		"Eww!",
+		"Aaah!",
+		"Aaagh!",
+		"Help!",
+		"Yes!",
+		"Noooo!",
+		"Damn!",
+		"Look!",
+		"Hey!",
+		"Stop!"
+	];	
+	this.value = pickFromArray(this.list);
+}
+
 function Article(){
 	this.list = [
 		"the",
