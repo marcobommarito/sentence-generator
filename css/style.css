@@ -4,7 +4,7 @@
     color: white;
 
     padding: 1em;
-    max-width: 200px;
+    max-width: 400px;
 
     position: absolute;
     top: 50%;
@@ -15,4 +15,5 @@
 
 #sentence{
 	overflow-x: scroll;
+	font-size: 2em;
 }
