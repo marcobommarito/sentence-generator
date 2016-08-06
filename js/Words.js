@@ -447,6 +447,8 @@ function VerbTrans(){
 		"yanked",
 		"believed in",
 		"broke",
+		"became",
+		"turned out to be",
 		"produced",
 		"brushed",
 		"approved of",
