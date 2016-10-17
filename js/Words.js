@@ -161,7 +161,7 @@ function Adverb(){
 		"hesitantly",
 		"eagerly",
 		"astoundingly",
-		"facetiously"
+		"facetiously",
 		"flippantly",
 		"barely",
 		"haphazardly",
