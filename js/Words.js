@@ -629,7 +629,10 @@ function Prep(){
 		"regarding",
 		"around",
 		"within",
+		"above",
 		"inside",
+		"against",
+		"next to"
 	];
 	this.value = pickFromArray(this.list);
 }
