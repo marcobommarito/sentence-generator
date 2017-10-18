@@ -602,7 +602,7 @@ function VerbTrans(){
 		"built",
 		"punished",
 		"slapped",
-		"persecuted,"
+		"persecuted",
 		"dismantled",
 		"groomed",
 		"vindicated",
